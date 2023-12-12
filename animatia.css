@@ -1,0 +1,72 @@
+#rectangle {
+    width: 800px;
+    height: 600px;
+    background-color: #050210;
+    margin: 30px auto;
+}
+
+#circle0 {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    transform: translate(200px, 100px)
+}
+
+#circle1 {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(#fb5dad, #55fb9f, #b97aff);
+    box-shadow: 30px 0px 60px 1px #55fba050,
+        -30px 0px 60px 1px#55fba050,
+        0px 30px 60px 1px #b87aff70,
+        0px -30px 60px 1px #fb5dac70;
+    animation-name: rotating-animation;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    filter: blur(1px) opacity(90%);
+    display: grid;
+  place-items: center;
+} 
+@keyframes rotating-animation {
+    from {
+        background-color: #fb5dad;
+        transform: rotate(-540deg);
+    }
+    50% {
+        background-color: #55fb9f;
+    }
+    to {
+        background-color: #b97aff;
+    }
+}
+
+#circle2 {
+    border-radius: 50%;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    background-color: #050210;
+}
+
+#circle3 {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    background-color: #000000;
+    animation-name: punct;
+    animation-duration: 1.15s;
+    animation-iteration-count: infinite; 
+   animation-timing-function: ease-out;
+}
+
+@keyframes punct {
+    0% {
+        transform: scale(0);
+        background-color: rgb(53, 44, 111);
+    }
+    75% {
+        transform: scale(1);
+    }
+}
