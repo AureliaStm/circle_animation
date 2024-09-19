@@ -1,0 +1,12 @@
+npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+git add
+git add .
+git commit -m "Install Chakra UI"
+git push
+git push --set-upstream origin main
+npm run dev
+cd Desktop
+npm create vite@4.1.0
+cd game-hub
+npm i
+npm run dev

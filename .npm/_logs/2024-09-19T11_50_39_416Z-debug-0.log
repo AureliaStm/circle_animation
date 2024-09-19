@@ -1,0 +1,528 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.14.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/Users/aureliastamati/Desktop/game-hub/.npmrc
+5 silly config:load:file:/Users/aureliastamati/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+8 verbose argv "i" "@chakra-ui/react" "@emotion/react" "@emotion/styled" "framer-motion"
+9 verbose logfile logs-max:10 dir:/Users/aureliastamati/.npm/_logs/2024-09-19T11_50_39_416Z-
+10 verbose logfile /Users/aureliastamati/.npm/_logs/2024-09-19T11_50_39_416Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest @chakra-ui/react@*
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact 24ms (cache hit)
+16 silly fetch manifest @emotion/react@*
+17 http fetch GET 200 https://registry.npmjs.org/@emotion%2freact 18ms (cache hit)
+18 silly fetch manifest react@^18.2.0
+19 http fetch GET 200 https://registry.npmjs.org/react 9ms (cache hit)
+20 silly fetch manifest @emotion/styled@*
+21 http fetch GET 200 https://registry.npmjs.org/@emotion%2fstyled 3ms (cache hit)
+22 silly fetch manifest framer-motion@*
+23 http fetch GET 200 https://registry.npmjs.org/framer-motion 15ms (cache hit)
+24 silly fetch manifest @emotion/is-prop-valid@*
+25 http fetch GET 200 https://registry.npmjs.org/@emotion%2fis-prop-valid 9ms (cache hit)
+26 silly fetch manifest react-dom@^18.2.0
+27 http fetch GET 200 https://registry.npmjs.org/react-dom 10ms (cache hit)
+28 silly placeDep ROOT @chakra-ui/react@2.8.2 OK for: game-hub@0.0.0 want: *
+29 silly placeDep ROOT framer-motion@11.5.5 OK for: @chakra-ui/react@2.8.2 want: >=4.0.0
+30 silly placeDep ROOT @emotion/react@11.13.3 OK for: @chakra-ui/react@2.8.2 want: ^11.0.0
+31 silly placeDep ROOT @emotion/styled@11.13.0 OK for: @chakra-ui/react@2.8.2 want: ^11.0.0
+32 silly placeDep ROOT @emotion/react@11.13.3 REPLACE for: game-hub@0.0.0 want: *
+33 silly placeDep ROOT @emotion/styled@11.13.0 REPLACE for: game-hub@0.0.0 want: *
+34 silly placeDep ROOT framer-motion@11.5.5 REPLACE for: game-hub@0.0.0 want: *
+35 silly fetch manifest @chakra-ui/tag@3.1.1
+36 silly fetch manifest @chakra-ui/card@2.2.0
+37 silly fetch manifest @chakra-ui/icon@3.2.0
+38 silly fetch manifest @chakra-ui/menu@2.2.1
+39 silly fetch manifest @chakra-ui/stat@2.1.1
+40 silly fetch manifest @chakra-ui/tabs@3.0.0
+41 silly fetch manifest @chakra-ui/alert@2.2.2
+42 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fmenu 17ms (cache hit)
+43 silly fetch manifest @chakra-ui/hooks@2.2.1
+44 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ftag 36ms (cache hit)
+45 silly fetch manifest @chakra-ui/image@2.1.0
+46 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2falert 48ms (cache hit)
+47 silly fetch manifest @chakra-ui/input@2.1.2
+48 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ficon 57ms (cache hit)
+49 silly fetch manifest @chakra-ui/modal@2.3.1
+50 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fstat 65ms (cache hit)
+51 silly fetch manifest @chakra-ui/radio@2.1.2
+52 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fcard 79ms (cache hit)
+53 silly fetch manifest @chakra-ui/table@2.1.0
+54 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ftabs 83ms (cache hit)
+55 silly fetch manifest @chakra-ui/theme@3.3.1
+56 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2finput 45ms (cache hit)
+57 silly fetch manifest @chakra-ui/toast@7.0.2
+58 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fhooks 83ms (cache hit)
+59 silly fetch manifest @chakra-ui/utils@2.0.15
+60 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fimage 77ms (cache hit)
+61 silly fetch manifest @chakra-ui/avatar@2.3.0
+62 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fradio 60ms (cache hit)
+63 silly fetch manifest @chakra-ui/button@2.1.0
+64 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fmodal 86ms (cache hit)
+65 silly fetch manifest @chakra-ui/layout@2.3.1
+66 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ftheme 78ms (cache hit)
+67 silly fetch manifest @chakra-ui/popper@3.1.0
+68 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ftable 106ms (cache hit)
+69 silly fetch manifest @chakra-ui/portal@2.1.0
+70 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2futils 77ms (cache hit)
+71 silly fetch manifest @chakra-ui/select@2.1.2
+72 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2favatar 83ms (cache hit)
+73 silly fetch manifest @chakra-ui/slider@2.1.0
+74 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2flayout 65ms (cache hit)
+75 silly fetch manifest @chakra-ui/switch@2.1.2
+76 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fbutton 103ms (cache hit)
+77 silly fetch manifest @chakra-ui/system@2.6.2
+78 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ftoast 159ms (cache hit)
+79 silly fetch manifest @chakra-ui/counter@2.1.0
+80 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fpopper 125ms (cache hit)
+81 silly fetch manifest @chakra-ui/popover@2.2.1
+82 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fportal 123ms (cache hit)
+83 silly fetch manifest @chakra-ui/spinner@2.1.0
+84 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fselect 124ms (cache hit)
+85 silly fetch manifest @chakra-ui/stepper@2.3.1
+86 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fsystem 85ms (cache hit)
+87 silly fetch manifest @chakra-ui/tooltip@2.3.1
+88 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fslider 136ms (cache hit)
+89 silly fetch manifest @chakra-ui/checkbox@2.3.2
+90 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fswitch 140ms (cache hit)
+91 silly fetch manifest @chakra-ui/editable@3.1.0
+92 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fpopover 83ms (cache hit)
+93 silly fetch manifest @chakra-ui/progress@2.2.0
+94 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fcounter 100ms (cache hit)
+95 silly fetch manifest @chakra-ui/provider@2.4.2
+96 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fspinner 94ms (cache hit)
+97 silly fetch manifest @chakra-ui/skeleton@2.1.0
+98 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fstepper 90ms (cache hit)
+99 silly fetch manifest @chakra-ui/skip-nav@2.1.0
+100 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fprovider 27ms (cache hit)
+101 silly fetch manifest @chakra-ui/textarea@2.1.2
+102 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ftooltip 92ms (cache hit)
+103 silly fetch manifest @chakra-ui/accordion@2.3.1
+104 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2feditable 71ms (cache hit)
+105 silly fetch manifest @chakra-ui/css-reset@2.3.0
+106 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fcheckbox 93ms (cache hit)
+107 silly fetch manifest @chakra-ui/pin-input@2.1.0
+108 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fprogress 82ms (cache hit)
+109 silly fetch manifest @chakra-ui/react-env@3.1.0
+110 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fskeleton 89ms (cache hit)
+111 silly fetch manifest @chakra-ui/breadcrumb@2.2.0
+112 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fskip-nav 92ms (cache hit)
+113 silly fetch manifest @chakra-ui/focus-lock@2.1.0
+114 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ftextarea 89ms (cache hit)
+115 silly fetch manifest @chakra-ui/transition@2.1.0
+116 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fcss-reset 78ms (cache hit)
+117 silly fetch manifest @chakra-ui/control-box@2.1.0
+118 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2faccordion 96ms (cache hit)
+119 silly fetch manifest @chakra-ui/live-region@2.1.0
+120 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fpin-input 100ms (cache hit)
+121 silly fetch manifest @chakra-ui/media-query@3.3.0
+122 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-env 85ms (cache hit)
+123 silly fetch manifest @chakra-ui/theme-utils@2.0.21
+124 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ffocus-lock 66ms (cache hit)
+125 silly fetch manifest @chakra-ui/close-button@2.1.1
+126 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fbreadcrumb 87ms (cache hit)
+127 silly fetch manifest @chakra-ui/form-control@2.2.0
+128 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ftransition 88ms (cache hit)
+129 silly fetch manifest @chakra-ui/number-input@2.1.2
+130 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fcontrol-box 91ms (cache hit)
+131 silly fetch manifest @chakra-ui/styled-system@2.9.2
+132 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2flive-region 74ms (cache hit)
+133 silly fetch manifest @chakra-ui/visually-hidden@2.2.0
+134 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ftheme-utils 66ms (cache hit)
+135 silly fetch manifest @babel/runtime@^7.18.3
+136 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fmedia-query 84ms (cache hit)
+137 silly fetch manifest @emotion/babel-plugin@^11.12.0
+138 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fform-control 60ms (cache hit)
+139 silly fetch manifest @emotion/is-prop-valid@^1.3.0
+140 silly fetch manifest @emotion/serialize@^1.3.0
+141 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fstyled-system 53ms (cache hit)
+142 silly fetch manifest @emotion/use-insertion-effect-with-fallbacks@^1.1.0
+143 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fvisually-hidden 59ms (cache hit)
+144 silly fetch manifest @emotion/utils@^1.4.0
+145 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fclose-button 123ms (cache hit)
+146 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fnumber-input 101ms (cache hit)
+147 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 85ms (cache hit)
+148 silly fetch manifest @emotion/cache@^11.13.0
+149 silly fetch manifest @emotion/serialize@^1.3.1
+150 http fetch GET 200 https://registry.npmjs.org/@emotion%2fbabel-plugin 89ms (cache hit)
+151 http fetch GET 200 https://registry.npmjs.org/@emotion%2fserialize 8ms (cache hit)
+152 silly fetch manifest @emotion/weak-memoize@^0.4.0
+153 http fetch GET 200 https://registry.npmjs.org/@emotion%2fserialize 79ms (cache hit)
+154 silly fetch manifest hoist-non-react-statics@^3.3.1
+155 http fetch GET 200 https://registry.npmjs.org/@emotion%2futils 52ms (cache hit)
+156 silly fetch manifest tslib@^2.4.0
+157 http fetch GET 200 https://registry.npmjs.org/@emotion%2fuse-insertion-effect-with-fallbacks 72ms (cache hit)
+158 http fetch GET 200 https://registry.npmjs.org/@emotion%2fcache 18ms (cache hit)
+159 http fetch GET 200 https://registry.npmjs.org/@emotion%2fweak-memoize 11ms (cache hit)
+160 http fetch GET 200 https://registry.npmjs.org/tslib 9ms (cache hit)
+161 http fetch GET 200 https://registry.npmjs.org/hoist-non-react-statics 12ms (cache hit)
+162 silly fetch manifest @emotion/react@^11.0.0
+163 silly fetch manifest react@>=18
+164 silly fetch manifest @emotion/styled@^11.0.0
+165 silly fetch manifest framer-motion@>=4.0.0
+166 silly fetch manifest react-dom@>=18
+167 silly placeDep ROOT @chakra-ui/accordion@2.3.1 OK for: @chakra-ui/react@2.8.2 want: 2.3.1
+168 silly placeDep ROOT @chakra-ui/system@2.6.2 OK for: @chakra-ui/accordion@2.3.1 want: >=2.0.0
+169 silly placeDep ROOT @chakra-ui/alert@2.2.2 OK for: @chakra-ui/react@2.8.2 want: 2.2.2
+170 silly placeDep ROOT @chakra-ui/avatar@2.3.0 OK for: @chakra-ui/react@2.8.2 want: 2.3.0
+171 silly placeDep ROOT @chakra-ui/breadcrumb@2.2.0 OK for: @chakra-ui/react@2.8.2 want: 2.2.0
+172 silly placeDep ROOT @chakra-ui/button@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+173 silly placeDep ROOT @chakra-ui/card@2.2.0 OK for: @chakra-ui/react@2.8.2 want: 2.2.0
+174 silly placeDep ROOT @chakra-ui/checkbox@2.3.2 OK for: @chakra-ui/react@2.8.2 want: 2.3.2
+175 silly placeDep ROOT @chakra-ui/close-button@2.1.1 OK for: @chakra-ui/react@2.8.2 want: 2.1.1
+176 silly placeDep ROOT @chakra-ui/control-box@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+177 silly placeDep ROOT @chakra-ui/counter@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+178 silly placeDep ROOT @chakra-ui/css-reset@2.3.0 OK for: @chakra-ui/react@2.8.2 want: 2.3.0
+179 silly placeDep ROOT @chakra-ui/editable@3.1.0 OK for: @chakra-ui/react@2.8.2 want: 3.1.0
+180 silly placeDep ROOT @chakra-ui/focus-lock@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+181 silly placeDep ROOT @chakra-ui/form-control@2.2.0 OK for: @chakra-ui/react@2.8.2 want: 2.2.0
+182 silly placeDep ROOT @chakra-ui/hooks@2.2.1 OK for: @chakra-ui/react@2.8.2 want: 2.2.1
+183 silly placeDep ROOT @chakra-ui/icon@3.2.0 OK for: @chakra-ui/react@2.8.2 want: 3.2.0
+184 silly placeDep ROOT @chakra-ui/image@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+185 silly placeDep ROOT @chakra-ui/input@2.1.2 OK for: @chakra-ui/react@2.8.2 want: 2.1.2
+186 silly placeDep ROOT @chakra-ui/layout@2.3.1 OK for: @chakra-ui/react@2.8.2 want: 2.3.1
+187 silly placeDep ROOT @chakra-ui/live-region@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+188 silly placeDep ROOT @chakra-ui/media-query@3.3.0 OK for: @chakra-ui/react@2.8.2 want: 3.3.0
+189 silly placeDep ROOT @chakra-ui/menu@2.2.1 OK for: @chakra-ui/react@2.8.2 want: 2.2.1
+190 silly placeDep ROOT @chakra-ui/modal@2.3.1 OK for: @chakra-ui/react@2.8.2 want: 2.3.1
+191 silly placeDep ROOT @chakra-ui/number-input@2.1.2 OK for: @chakra-ui/react@2.8.2 want: 2.1.2
+192 silly placeDep ROOT @chakra-ui/pin-input@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+193 silly placeDep ROOT @chakra-ui/popover@2.2.1 OK for: @chakra-ui/react@2.8.2 want: 2.2.1
+194 silly placeDep ROOT @chakra-ui/popper@3.1.0 OK for: @chakra-ui/react@2.8.2 want: 3.1.0
+195 silly placeDep ROOT @chakra-ui/portal@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+196 silly placeDep ROOT @chakra-ui/progress@2.2.0 OK for: @chakra-ui/react@2.8.2 want: 2.2.0
+197 silly placeDep ROOT @chakra-ui/provider@2.4.2 OK for: @chakra-ui/react@2.8.2 want: 2.4.2
+198 silly placeDep ROOT @chakra-ui/radio@2.1.2 OK for: @chakra-ui/react@2.8.2 want: 2.1.2
+199 silly placeDep ROOT @chakra-ui/react-env@3.1.0 OK for: @chakra-ui/react@2.8.2 want: 3.1.0
+200 silly placeDep ROOT @chakra-ui/select@2.1.2 OK for: @chakra-ui/react@2.8.2 want: 2.1.2
+201 silly placeDep ROOT @chakra-ui/skeleton@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+202 silly placeDep ROOT @chakra-ui/skip-nav@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+203 silly placeDep ROOT @chakra-ui/slider@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+204 silly placeDep ROOT @chakra-ui/spinner@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+205 silly placeDep ROOT @chakra-ui/stat@2.1.1 OK for: @chakra-ui/react@2.8.2 want: 2.1.1
+206 silly placeDep ROOT @chakra-ui/stepper@2.3.1 OK for: @chakra-ui/react@2.8.2 want: 2.3.1
+207 silly placeDep ROOT @chakra-ui/styled-system@2.9.2 OK for: @chakra-ui/react@2.8.2 want: 2.9.2
+208 silly placeDep ROOT @chakra-ui/switch@2.1.2 OK for: @chakra-ui/react@2.8.2 want: 2.1.2
+209 silly placeDep ROOT @chakra-ui/table@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+210 silly placeDep ROOT @chakra-ui/tabs@3.0.0 OK for: @chakra-ui/react@2.8.2 want: 3.0.0
+211 silly placeDep ROOT @chakra-ui/tag@3.1.1 OK for: @chakra-ui/react@2.8.2 want: 3.1.1
+212 silly placeDep ROOT @chakra-ui/textarea@2.1.2 OK for: @chakra-ui/react@2.8.2 want: 2.1.2
+213 silly placeDep ROOT @chakra-ui/theme@3.3.1 OK for: @chakra-ui/react@2.8.2 want: 3.3.1
+214 silly placeDep ROOT @chakra-ui/theme-utils@2.0.21 OK for: @chakra-ui/react@2.8.2 want: 2.0.21
+215 silly placeDep ROOT @chakra-ui/toast@7.0.2 OK for: @chakra-ui/react@2.8.2 want: 7.0.2
+216 silly placeDep ROOT @chakra-ui/tooltip@2.3.1 OK for: @chakra-ui/react@2.8.2 want: 2.3.1
+217 silly placeDep ROOT @chakra-ui/transition@2.1.0 OK for: @chakra-ui/react@2.8.2 want: 2.1.0
+218 silly placeDep ROOT @chakra-ui/utils@2.0.15 OK for: @chakra-ui/react@2.8.2 want: 2.0.15
+219 silly placeDep ROOT @chakra-ui/visually-hidden@2.2.0 OK for: @chakra-ui/react@2.8.2 want: 2.2.0
+220 silly fetch manifest @chakra-ui/shared-utils@2.0.5
+221 silly fetch manifest @chakra-ui/descendant@3.1.0
+222 silly fetch manifest @chakra-ui/react-use-controllable-state@2.1.0
+223 silly fetch manifest @chakra-ui/react-use-merge-refs@2.1.0
+224 silly fetch manifest @chakra-ui/react-context@2.1.0
+225 silly fetch manifest react-fast-compare@3.2.2
+226 silly fetch manifest @chakra-ui/color-mode@2.2.0
+227 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-merge-refs 8ms (cache hit)
+228 silly fetch manifest @chakra-ui/object-utils@2.1.0
+229 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fdescendant 13ms (cache hit)
+230 silly fetch manifest @chakra-ui/react-utils@2.0.12
+231 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fshared-utils 19ms (cache hit)
+232 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fcolor-mode 20ms (cache hit)
+233 http fetch GET 200 https://registry.npmjs.org/react-fast-compare 26ms (cache hit)
+234 silly fetch manifest @chakra-ui/react-children-utils@2.0.6
+235 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-context 30ms (cache hit)
+236 silly fetch manifest @zag-js/focus-visible@0.16.0
+237 silly fetch manifest @chakra-ui/react-use-callback-ref@2.1.0
+238 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-controllable-state 34ms (cache hit)
+239 silly fetch manifest @chakra-ui/react-use-safe-layout-effect@2.1.0
+240 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fobject-utils 32ms (cache hit)
+241 silly fetch manifest @chakra-ui/react-use-update-effect@2.1.0
+242 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-utils 26ms (cache hit)
+243 silly fetch manifest @chakra-ui/react-types@2.0.7
+244 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-children-utils 17ms (cache hit)
+245 silly fetch manifest @chakra-ui/number-utils@2.0.7
+246 http fetch GET 200 https://registry.npmjs.org/@zag-js%2ffocus-visible 19ms (cache hit)
+247 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-callback-ref 29ms (cache hit)
+248 silly fetch manifest @chakra-ui/react-use-focus-on-pointer-down@2.1.0
+249 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-safe-layout-effect 29ms (cache hit)
+250 silly fetch manifest react-focus-lock@^2.9.4
+251 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-update-effect 26ms (cache hit)
+252 silly fetch manifest @chakra-ui/dom-utils@2.1.0
+253 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fnumber-utils 24ms (cache hit)
+254 silly fetch manifest copy-to-clipboard@3.3.3
+255 http fetch GET 200 https://registry.npmjs.org/react-focus-lock 8ms (cache hit)
+256 silly fetch manifest compute-scroll-into-view@3.0.3
+257 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-focus-on-pointer-down 14ms (cache hit)
+258 silly fetch manifest @chakra-ui/breakpoint-utils@2.0.8
+259 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-types 35ms (cache hit)
+260 silly fetch manifest @chakra-ui/clickable@2.1.0
+261 silly fetch manifest @chakra-ui/lazy-utils@2.0.5
+262 http fetch GET 200 https://registry.npmjs.org/copy-to-clipboard 16ms (cache hit)
+263 silly fetch manifest @chakra-ui/react-use-animation-state@2.1.0
+264 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fdom-utils 21ms (cache hit)
+265 silly fetch manifest @chakra-ui/react-use-disclosure@2.1.0
+266 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fclickable 13ms (cache hit)
+267 silly fetch manifest @chakra-ui/react-use-focus-effect@2.1.0
+268 http fetch GET 200 https://registry.npmjs.org/compute-scroll-into-view 21ms (cache hit)
+269 silly fetch manifest @chakra-ui/react-use-outside-click@2.2.0
+270 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2flazy-utils 18ms (cache hit)
+271 silly fetch manifest aria-hidden@^1.2.3
+272 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fbreakpoint-utils 22ms (cache hit)
+273 silly fetch manifest react-remove-scroll@^2.5.6
+274 silly fetch manifest @chakra-ui/react-use-event-listener@2.1.0
+275 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-animation-state 22ms (cache hit)
+276 silly fetch manifest @chakra-ui/react-use-interval@2.1.0
+277 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-focus-effect 17ms (cache hit)
+278 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll 12ms (cache hit)
+279 silly fetch manifest @popperjs/core@^2.9.3
+280 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-disclosure 26ms (cache hit)
+281 silly fetch manifest @chakra-ui/react-use-previous@2.1.0
+282 silly fetch manifest @chakra-ui/react-use-pan-event@2.1.0
+283 http fetch GET 200 https://registry.npmjs.org/aria-hidden 20ms (cache hit)
+284 silly fetch manifest @chakra-ui/react-use-size@2.1.0
+285 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-event-listener 18ms (cache hit)
+286 silly fetch manifest @chakra-ui/react-use-latest-ref@2.1.0
+287 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-outside-click 25ms (cache hit)
+288 silly fetch manifest lodash.mergewith@4.6.2
+289 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-interval 20ms (cache hit)
+290 silly fetch manifest @chakra-ui/anatomy@2.2.2
+291 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-previous 15ms (cache hit)
+292 silly fetch manifest @chakra-ui/theme-tools@2.1.2
+293 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-size 16ms (cache hit)
+294 http fetch GET 200 https://registry.npmjs.org/@popperjs%2fcore 22ms (cache hit)
+295 silly fetch manifest @chakra-ui/react-use-timeout@2.1.0
+296 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-pan-event 25ms (cache hit)
+297 silly fetch manifest framesync@6.1.2
+298 http fetch GET 200 https://registry.npmjs.org/lodash.mergewith 22ms (cache hit)
+299 silly fetch manifest css-box-model@1.2.1
+300 silly fetch manifest @types/lodash.mergewith@4.6.7
+301 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-latest-ref 25ms (cache hit)
+302 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2ftheme-tools 20ms (cache hit)
+303 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fanatomy 29ms (cache hit)
+304 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2freact-use-timeout 24ms (cache hit)
+305 http fetch GET 200 https://registry.npmjs.org/css-box-model 21ms (cache hit)
+306 http fetch GET 200 https://registry.npmjs.org/framesync 23ms (cache hit)
+307 http fetch GET 200 https://registry.npmjs.org/@types%2flodash.mergewith 23ms (cache hit)
+308 silly placeDep ROOT @chakra-ui/descendant@3.1.0 OK for: @chakra-ui/accordion@2.3.1 want: 3.1.0
+309 silly placeDep ROOT @chakra-ui/react-context@2.1.0 OK for: @chakra-ui/accordion@2.3.1 want: 2.1.0
+310 silly placeDep ROOT @chakra-ui/react-use-controllable-state@2.1.0 OK for: @chakra-ui/accordion@2.3.1 want: 2.1.0
+311 silly placeDep ROOT @chakra-ui/react-use-merge-refs@2.1.0 OK for: @chakra-ui/accordion@2.3.1 want: 2.1.0
+312 silly placeDep ROOT @chakra-ui/shared-utils@2.0.5 OK for: @chakra-ui/accordion@2.3.1 want: 2.0.5
+313 silly placeDep ROOT @chakra-ui/react-children-utils@2.0.6 OK for: @chakra-ui/avatar@2.3.0 want: 2.0.6
+314 silly placeDep ROOT @chakra-ui/react-types@2.0.7 OK for: @chakra-ui/checkbox@2.3.2 want: 2.0.7
+315 silly placeDep ROOT @chakra-ui/react-use-callback-ref@2.1.0 OK for: @chakra-ui/checkbox@2.3.2 want: 2.1.0
+316 silly placeDep ROOT @chakra-ui/react-use-safe-layout-effect@2.1.0 OK for: @chakra-ui/checkbox@2.3.2 want: 2.1.0
+317 silly placeDep ROOT @chakra-ui/react-use-update-effect@2.1.0 OK for: @chakra-ui/checkbox@2.3.2 want: 2.1.0
+318 silly placeDep ROOT @zag-js/focus-visible@0.16.0 OK for: @chakra-ui/checkbox@2.3.2 want: 0.16.0
+319 silly fetch manifest @zag-js/dom-query@0.16.0
+320 http fetch GET 200 https://registry.npmjs.org/@zag-js%2fdom-query 4ms (cache hit)
+321 silly placeDep ROOT @chakra-ui/number-utils@2.0.7 OK for: @chakra-ui/counter@2.1.0 want: 2.0.7
+322 silly placeDep ROOT @chakra-ui/react-use-focus-on-pointer-down@2.1.0 OK for: @chakra-ui/editable@3.1.0 want: 2.1.0
+323 silly fetch manifest @types/react@^16.8.0 || ^17.0.0 || ^18.0.0
+324 http fetch GET 200 https://registry.npmjs.org/@types%2freact 5ms (cache hit)
+325 silly placeDep ROOT @chakra-ui/dom-utils@2.1.0 OK for: @chakra-ui/focus-lock@2.1.0 want: 2.1.0
+326 silly placeDep ROOT react-focus-lock@2.13.2 OK for: @chakra-ui/focus-lock@2.1.0 want: ^2.9.4
+327 silly fetch manifest @babel/runtime@^7.0.0
+328 silly fetch manifest focus-lock@^1.3.5
+329 silly fetch manifest prop-types@^15.6.2
+330 silly fetch manifest react-clientside-effect@^1.2.6
+331 silly fetch manifest use-callback-ref@^1.3.2
+332 silly fetch manifest use-sidecar@^1.1.2
+333 http fetch GET 200 https://registry.npmjs.org/use-callback-ref 47ms (cache hit)
+334 http fetch GET 200 https://registry.npmjs.org/use-sidecar 45ms (cache hit)
+335 http fetch GET 200 https://registry.npmjs.org/react-clientside-effect 49ms (cache hit)
+336 http fetch GET 200 https://registry.npmjs.org/focus-lock 51ms (cache hit)
+337 http fetch GET 200 https://registry.npmjs.org/prop-types 196ms (cache miss)
+338 silly placeDep ROOT @chakra-ui/react-utils@2.0.12 OK for: @chakra-ui/hooks@2.2.1 want: 2.0.12
+339 silly placeDep ROOT compute-scroll-into-view@3.0.3 OK for: @chakra-ui/hooks@2.2.1 want: 3.0.3
+340 silly placeDep ROOT copy-to-clipboard@3.3.3 OK for: @chakra-ui/hooks@2.2.1 want: 3.3.3
+341 silly fetch manifest toggle-selection@^1.0.6
+342 http fetch GET 200 https://registry.npmjs.org/toggle-selection 2ms (cache hit)
+343 silly placeDep ROOT @chakra-ui/object-utils@2.1.0 OK for: @chakra-ui/input@2.1.2 want: 2.1.0
+344 silly placeDep ROOT @chakra-ui/breakpoint-utils@2.0.8 OK for: @chakra-ui/layout@2.3.1 want: 2.0.8
+345 silly placeDep ROOT @chakra-ui/clickable@2.1.0 OK for: @chakra-ui/menu@2.2.1 want: 2.1.0
+346 silly placeDep ROOT @chakra-ui/lazy-utils@2.0.5 OK for: @chakra-ui/menu@2.2.1 want: 2.0.5
+347 silly placeDep ROOT @chakra-ui/react-use-animation-state@2.1.0 OK for: @chakra-ui/menu@2.2.1 want: 2.1.0
+348 silly placeDep ROOT @chakra-ui/react-use-disclosure@2.1.0 OK for: @chakra-ui/menu@2.2.1 want: 2.1.0
+349 silly placeDep ROOT @chakra-ui/react-use-focus-effect@2.1.0 OK for: @chakra-ui/menu@2.2.1 want: 2.1.0
+350 silly placeDep ROOT @chakra-ui/react-use-outside-click@2.2.0 OK for: @chakra-ui/menu@2.2.1 want: 2.2.0
+351 silly placeDep ROOT aria-hidden@1.2.4 OK for: @chakra-ui/modal@2.3.1 want: ^1.2.3
+352 silly placeDep ROOT react-remove-scroll@2.6.0 OK for: @chakra-ui/modal@2.3.1 want: ^2.5.6
+353 silly fetch manifest tslib@^2.0.0
+354 silly fetch manifest react-remove-scroll-bar@^2.3.6
+355 silly fetch manifest react-style-singleton@^2.2.1
+356 silly fetch manifest tslib@^2.1.0
+357 silly fetch manifest use-callback-ref@^1.3.0
+358 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll-bar 4ms (cache hit)
+359 http fetch GET 200 https://registry.npmjs.org/react-style-singleton 4ms (cache hit)
+360 silly placeDep ROOT @chakra-ui/react-use-event-listener@2.1.0 OK for: @chakra-ui/number-input@2.1.2 want: 2.1.0
+361 silly placeDep ROOT @chakra-ui/react-use-interval@2.1.0 OK for: @chakra-ui/number-input@2.1.2 want: 2.1.0
+362 silly placeDep ROOT @popperjs/core@2.11.8 OK for: @chakra-ui/popper@3.1.0 want: ^2.9.3
+363 silly placeDep ROOT @chakra-ui/react-use-previous@2.1.0 OK for: @chakra-ui/skeleton@2.1.0 want: 2.1.0
+364 silly placeDep ROOT @chakra-ui/react-use-latest-ref@2.1.0 OK for: @chakra-ui/slider@2.1.0 want: 2.1.0
+365 silly placeDep ROOT @chakra-ui/react-use-pan-event@2.1.0 OK for: @chakra-ui/slider@2.1.0 want: 2.1.0
+366 silly placeDep ROOT @chakra-ui/react-use-size@2.1.0 OK for: @chakra-ui/slider@2.1.0 want: 2.1.0
+367 silly fetch manifest @chakra-ui/event-utils@2.0.8
+368 silly fetch manifest @zag-js/element-size@0.10.5
+369 http fetch GET 200 https://registry.npmjs.org/@zag-js%2felement-size 5ms (cache hit)
+370 http fetch GET 200 https://registry.npmjs.org/@chakra-ui%2fevent-utils 13ms (cache hit)
+371 silly placeDep ROOT @chakra-ui/event-utils@2.0.8 OK for: @chakra-ui/react-use-pan-event@2.1.0 want: 2.0.8
+372 silly placeDep ROOT framesync@6.1.2 OK for: @chakra-ui/react-use-pan-event@2.1.0 want: 6.1.2
+373 silly fetch manifest tslib@2.4.0
+374 silly placeDep ROOT @zag-js/element-size@0.10.5 OK for: @chakra-ui/react-use-size@2.1.0 want: 0.10.5
+375 silly placeDep ROOT lodash.mergewith@4.6.2 OK for: @chakra-ui/styled-system@2.9.2 want: 4.6.2
+376 silly placeDep ROOT @chakra-ui/color-mode@2.2.0 OK for: @chakra-ui/system@2.6.2 want: 2.2.0
+377 silly placeDep ROOT react-fast-compare@3.2.2 OK for: @chakra-ui/system@2.6.2 want: 3.2.2
+378 silly fetch manifest @chakra-ui/styled-system@>=2.8.0
+379 silly placeDep ROOT @chakra-ui/anatomy@2.2.2 OK for: @chakra-ui/theme@3.3.1 want: 2.2.2
+380 silly placeDep ROOT @chakra-ui/theme-tools@2.1.2 OK for: @chakra-ui/theme@3.3.1 want: 2.1.2
+381 silly fetch manifest color2k@^2.0.2
+382 http fetch GET 200 https://registry.npmjs.org/color2k 5ms (cache hit)
+383 silly placeDep ROOT color2k@2.0.3 OK for: @chakra-ui/theme-tools@2.1.2 want: ^2.0.2
+384 silly placeDep ROOT @chakra-ui/react-use-timeout@2.1.0 OK for: @chakra-ui/toast@7.0.2 want: 2.1.0
+385 silly placeDep ROOT @types/lodash.mergewith@4.6.7 OK for: @chakra-ui/utils@2.0.15 want: 4.6.7
+386 silly placeDep ROOT css-box-model@1.2.1 OK for: @chakra-ui/utils@2.0.15 want: 1.2.1
+387 silly fetch manifest @types/lodash@*
+388 silly fetch manifest tiny-invariant@^1.0.6
+389 http fetch GET 200 https://registry.npmjs.org/@types%2flodash 3ms (cache hit)
+390 http fetch GET 200 https://registry.npmjs.org/tiny-invariant 5ms (cache hit)
+391 silly fetch manifest react@>=16.8.0
+392 silly placeDep ROOT @babel/runtime@7.25.6 OK for: @emotion/react@11.13.3 want: ^7.18.3
+393 silly placeDep ROOT @emotion/babel-plugin@11.12.0 OK for: @emotion/react@11.13.3 want: ^11.12.0
+394 silly placeDep ROOT @emotion/cache@11.13.1 OK for: @emotion/react@11.13.3 want: ^11.13.0
+395 silly placeDep ROOT @emotion/serialize@1.3.1 OK for: @emotion/react@11.13.3 want: ^1.3.1
+396 silly placeDep ROOT @emotion/use-insertion-effect-with-fallbacks@1.1.0 OK for: @emotion/react@11.13.3 want: ^1.1.0
+397 silly placeDep ROOT @emotion/utils@1.4.0 OK for: @emotion/react@11.13.3 want: ^1.4.0
+398 silly placeDep ROOT @emotion/weak-memoize@0.4.0 OK for: @emotion/react@11.13.3 want: ^0.4.0
+399 silly placeDep ROOT hoist-non-react-statics@3.3.2 OK for: @emotion/react@11.13.3 want: ^3.3.1
+400 silly fetch manifest regenerator-runtime@^0.14.0
+401 silly fetch manifest @emotion/hash@^0.9.2
+402 silly fetch manifest @emotion/memoize@^0.9.0
+403 silly fetch manifest @emotion/serialize@^1.2.0
+404 silly fetch manifest babel-plugin-macros@^3.1.0
+405 silly fetch manifest convert-source-map@^1.5.0
+406 silly fetch manifest escape-string-regexp@^4.0.0
+407 silly fetch manifest find-root@^1.1.0
+408 http fetch GET 200 https://registry.npmjs.org/@emotion%2fmemoize 12ms (cache hit)
+409 silly fetch manifest source-map@^0.5.7
+410 http fetch GET 200 https://registry.npmjs.org/convert-source-map 12ms (cache hit)
+411 silly fetch manifest stylis@4.2.0
+412 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 14ms (cache hit)
+413 silly fetch manifest @emotion/sheet@^1.4.0
+414 http fetch GET 200 https://registry.npmjs.org/@emotion%2fhash 16ms (cache hit)
+415 http fetch GET 200 https://registry.npmjs.org/find-root 15ms (cache hit)
+416 silly fetch manifest @emotion/unitless@^0.10.0
+417 http fetch GET 200 https://registry.npmjs.org/source-map 7ms (cache hit)
+418 silly fetch manifest react-is@^16.7.0
+419 http fetch GET 200 https://registry.npmjs.org/stylis 9ms (cache hit)
+420 http fetch GET 200 https://registry.npmjs.org/@emotion%2fsheet 12ms (cache hit)
+421 http fetch GET 200 https://registry.npmjs.org/@emotion%2funitless 11ms (cache hit)
+422 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 63ms (cache miss)
+423 http fetch GET 200 https://registry.npmjs.org/babel-plugin-macros 111ms (cache miss)
+424 http fetch GET 200 https://registry.npmjs.org/react-is 229ms (cache miss)
+425 silly placeDep ROOT regenerator-runtime@0.14.1 OK for: @babel/runtime@7.25.6 want: ^0.14.0
+426 silly placeDep ROOT @emotion/hash@0.9.2 OK for: @emotion/babel-plugin@11.12.0 want: ^0.9.2
+427 silly placeDep ROOT @emotion/memoize@0.9.0 OK for: @emotion/babel-plugin@11.12.0 want: ^0.9.0
+428 silly placeDep ROOT babel-plugin-macros@3.1.0 OK for: @emotion/babel-plugin@11.12.0 want: ^3.1.0
+429 silly placeDep node_modules/@emotion/babel-plugin convert-source-map@1.9.0 OK for: @emotion/babel-plugin@11.12.0 want: ^1.5.0
+430 silly placeDep node_modules/@emotion/babel-plugin escape-string-regexp@4.0.0 OK for: @emotion/babel-plugin@11.12.0 want: ^4.0.0
+431 silly placeDep ROOT find-root@1.1.0 OK for: @emotion/babel-plugin@11.12.0 want: ^1.1.0
+432 silly placeDep ROOT source-map@0.5.7 OK for: @emotion/babel-plugin@11.12.0 want: ^0.5.7
+433 silly placeDep ROOT stylis@4.2.0 OK for: @emotion/babel-plugin@11.12.0 want: 4.2.0
+434 silly fetch manifest cosmiconfig@^7.0.0
+435 silly fetch manifest resolve@^1.19.0
+436 http fetch GET 200 https://registry.npmjs.org/resolve 38ms (cache revalidated)
+437 http fetch GET 200 https://registry.npmjs.org/cosmiconfig 44ms (cache revalidated)
+438 silly placeDep ROOT @emotion/sheet@1.4.0 OK for: @emotion/cache@11.13.1 want: ^1.4.0
+439 silly placeDep ROOT @emotion/unitless@0.10.0 OK for: @emotion/serialize@1.3.1 want: ^0.10.0
+440 silly placeDep ROOT @emotion/is-prop-valid@1.3.0 OK for: @emotion/styled@11.13.0 want: ^1.3.0
+441 silly placeDep ROOT @types/lodash@4.17.7 OK for: @types/lodash.mergewith@4.6.7 want: *
+442 silly placeDep ROOT @zag-js/dom-query@0.16.0 OK for: @zag-js/focus-visible@0.16.0 want: 0.16.0
+443 silly placeDep ROOT tslib@2.7.0 OK for: aria-hidden@1.2.4 want: ^2.0.0
+444 silly placeDep ROOT cosmiconfig@7.1.0 OK for: babel-plugin-macros@3.1.0 want: ^7.0.0
+445 silly placeDep ROOT resolve@1.22.8 OK for: babel-plugin-macros@3.1.0 want: ^1.19.0
+446 silly fetch manifest @types/parse-json@^4.0.0
+447 silly fetch manifest import-fresh@^3.2.1
+448 silly fetch manifest parse-json@^5.0.0
+449 silly fetch manifest path-type@^4.0.0
+450 silly fetch manifest yaml@^1.10.0
+451 silly fetch manifest is-core-module@^2.13.0
+452 silly fetch manifest path-parse@^1.0.7
+453 http fetch GET 200 https://registry.npmjs.org/parse-json 41ms (cache revalidated)
+454 silly fetch manifest supports-preserve-symlinks-flag@^1.0.0
+455 http fetch GET 200 https://registry.npmjs.org/import-fresh 48ms (cache revalidated)
+456 silly placeDep ROOT toggle-selection@1.0.6 OK for: copy-to-clipboard@3.3.3 want: ^1.0.6
+457 silly placeDep node_modules/cosmiconfig @types/parse-json@ OK for: cosmiconfig@7.1.0 want: ^4.0.0
+458 silly placeDep ROOT import-fresh@3.3.0 OK for: cosmiconfig@7.1.0 want: ^3.2.1
+459 silly placeDep ROOT parse-json@5.2.0 OK for: cosmiconfig@7.1.0 want: ^5.0.0
+460 silly placeDep node_modules/cosmiconfig path-type@ OK for: cosmiconfig@7.1.0 want: ^4.0.0
+461 silly placeDep node_modules/cosmiconfig yaml@ OK for: cosmiconfig@7.1.0 want: ^1.10.0
+462 silly fetch manifest parent-module@^1.0.0
+463 silly fetch manifest resolve-from@^4.0.0
+464 silly fetch manifest error-ex@^1.3.1
+465 silly fetch manifest json-parse-even-better-errors@^2.3.0
+466 silly fetch manifest lines-and-columns@^1.1.6
+467 http fetch GET 200 https://registry.npmjs.org/error-ex 41ms (cache revalidated)
+468 http fetch GET 200 https://registry.npmjs.org/resolve-from 48ms (cache revalidated)
+469 http fetch GET 200 https://registry.npmjs.org/parent-module 84ms (cache revalidated)
+470 silly placeDep ROOT tiny-invariant@1.3.3 OK for: css-box-model@1.2.1 want: ^1.0.6
+471 silly placeDep node_modules/framesync tslib@2.4.0 OK for: framesync@6.1.2 want: 2.4.0
+472 silly placeDep ROOT react-is@16.13.1 OK for: hoist-non-react-statics@3.3.2 want: ^16.7.0
+473 silly placeDep ROOT parent-module@1.0.1 OK for: import-fresh@3.3.0 want: ^1.0.0
+474 silly placeDep ROOT resolve-from@4.0.0 OK for: import-fresh@3.3.0 want: ^4.0.0
+475 silly fetch manifest callsites@^3.0.0
+476 silly placeDep node_modules/parent-module callsites@ OK for: parent-module@1.0.1 want: ^3.0.0
+477 silly placeDep ROOT error-ex@1.3.2 OK for: parse-json@5.2.0 want: ^1.3.1
+478 silly placeDep node_modules/parse-json json-parse-even-better-errors@ OK for: parse-json@5.2.0 want: ^2.3.0
+479 silly placeDep node_modules/parse-json lines-and-columns@ OK for: parse-json@5.2.0 want: ^1.1.6
+480 silly fetch manifest is-arrayish@^0.2.1
+481 http fetch GET 200 https://registry.npmjs.org/is-arrayish 38ms (cache revalidated)
+482 silly placeDep ROOT is-arrayish@0.2.1 OK for: error-ex@1.3.2 want: ^0.2.1
+483 silly fetch manifest react@^16.8.0 || ^17.0.0 || ^18.0.0
+484 silly placeDep ROOT focus-lock@1.3.5 OK for: react-focus-lock@2.13.2 want: ^1.3.5
+485 silly placeDep ROOT prop-types@15.8.1 OK for: react-focus-lock@2.13.2 want: ^15.6.2
+486 silly placeDep ROOT react-clientside-effect@1.2.6 OK for: react-focus-lock@2.13.2 want: ^1.2.6
+487 silly placeDep ROOT use-callback-ref@1.3.2 OK for: react-focus-lock@2.13.2 want: ^1.3.2
+488 silly placeDep ROOT use-sidecar@1.1.2 OK for: react-focus-lock@2.13.2 want: ^1.1.2
+489 silly fetch manifest object-assign@^4.1.1
+490 silly fetch manifest detect-node-es@^1.1.0
+491 http fetch GET 200 https://registry.npmjs.org/detect-node-es 6ms (cache hit)
+492 http fetch GET 200 https://registry.npmjs.org/object-assign 36ms (cache revalidated)
+493 silly placeDep ROOT object-assign@4.1.1 OK for: prop-types@15.8.1 want: ^4.1.1
+494 silly placeDep ROOT react-remove-scroll-bar@2.3.6 OK for: react-remove-scroll@2.6.0 want: ^2.3.6
+495 silly placeDep ROOT react-style-singleton@2.2.1 OK for: react-remove-scroll@2.6.0 want: ^2.2.1
+496 silly fetch manifest get-nonce@^1.0.0
+497 silly fetch manifest invariant@^2.2.4
+498 http fetch GET 200 https://registry.npmjs.org/get-nonce 4ms (cache hit)
+499 http fetch GET 200 https://registry.npmjs.org/invariant 3ms (cache hit)
+500 silly placeDep ROOT get-nonce@1.0.1 OK for: react-style-singleton@2.2.1 want: ^1.0.0
+501 silly placeDep ROOT invariant@2.2.4 OK for: react-style-singleton@2.2.1 want: ^2.2.4
+502 silly placeDep node_modules/resolve is-core-module@ OK for: resolve@1.22.8 want: ^2.13.0
+503 silly placeDep node_modules/resolve path-parse@ OK for: resolve@1.22.8 want: ^1.0.7
+504 silly placeDep node_modules/resolve supports-preserve-symlinks-flag@ OK for: resolve@1.22.8 want: ^1.0.0
+505 silly placeDep ROOT detect-node-es@1.1.0 OK for: use-sidecar@1.1.2 want: ^1.1.0
+506 verbose type system
+507 verbose stack FetchError: Invalid response body while trying to fetch https://registry.npmjs.org/@types%2fparse-json: ENOENT: no such file or directory, stat '/Users/aureliastamati/.npm/_cacache/content-v2/sha512/fe/b0/f4746c8fb3173e81013723276a9293a53674622571dedc57778e825009d2377529cb5ffa9c59034d0069e1c7d264c49ace2af0639f2306b5047073eb4a9d'
+507 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:170:15
+507 verbose stack     at async Response.json (/usr/local/lib/node_modules/npm/node_modules/minipass-fetch/lib/body.js:75:17)
+507 verbose stack     at async RegistryFetcher.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:98:25)
+507 verbose stack     at async RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:129:23)
+508 verbose cwd /Users/aureliastamati/Desktop/game-hub
+509 verbose Darwin 21.4.0
+510 verbose node v20.14.0
+511 verbose npm  v10.7.0
+512 error code ENOENT
+513 error syscall stat
+514 error path /Users/aureliastamati/.npm/_cacache/content-v2/sha512/fe/b0/f4746c8fb3173e81013723276a9293a53674622571dedc57778e825009d2377529cb5ffa9c59034d0069e1c7d264c49ace2af0639f2306b5047073eb4a9d
+515 error errno ENOENT
+516 error enoent Invalid response body while trying to fetch https://registry.npmjs.org/@types%2fparse-json: ENOENT: no such file or directory, stat '/Users/aureliastamati/.npm/_cacache/content-v2/sha512/fe/b0/f4746c8fb3173e81013723276a9293a53674622571dedc57778e825009d2377529cb5ffa9c59034d0069e1c7d264c49ace2af0639f2306b5047073eb4a9d'
+517 error enoent This is related to npm not being able to find a file.
+517 error enoent
+518 verbose exit 1
+519 verbose code 1
+520 silly unfinished npm timer reify 1726746639631
+521 silly unfinished npm timer reify:loadTrees 1726746639633
+522 error A complete log of this run can be found in: /Users/aureliastamati/.npm/_logs/2024-09-19T11_50_39_416Z-debug-0.log
